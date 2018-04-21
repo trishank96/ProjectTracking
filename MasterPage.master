@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+	    <asp:ContentPlaceHolder ID="Contenttitle" runat="server">
+	    Project Tracking System
+	    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="Stylesheet/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="header">
+	  <h1><a href="default.aspx">Project Tracking System</a></h1>
+	  <ul id="menu">
+		<li class="active"><a href="About.aspx">about application</a></li>
+		<li><a href="Registration.aspx">register</a></li>
+		<li><a href="LogIn.aspx">log in</a></li>
+		<li><a href="#">help</a></li>
+		<li><a href="#">contact</a></li>
+	  </ul>
+	</div>
+	
+	<div id="teaser">
+	
+	  <div class="wrap">
+		<div id="image"></div>
+		
+	  </div>
+	
+	</div>
+    <asp:ContentPlaceHolder ID="ContentBody" runat="server">
+	<div class="wrap">
+	  
+	</div>
+	</asp:ContentPlaceHolder>
+	<div id="footer">
+	  <p>&copy; Copyright 2018 <a href="#">Project Tracking System</a> &middot; All Rights Reserved</p>
+	</div>
+	
+</body>
+</html>
